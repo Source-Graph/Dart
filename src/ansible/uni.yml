@@ -1,0 +1,15 @@
+---
+# - hosts: localhost
+#   roles:
+#   - .pre
+
+- hosts: localhost
+  vars:
+    # debug: false
+    editor: android studio
+    # Host_vars
+    ansible_become_password: u
+    ansible_user: "{{lookup('ansible.builtin.env', 'USER')}}"
+  roles:
+  - Dart
+  # - editor plugin

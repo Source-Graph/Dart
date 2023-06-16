@@ -1,0 +1,9 @@
+# Uni.os
+common: ['official download']
+
+# Official Download
+download_url: "https://storage.googleapis.com/dart-archive/channels/stable/release/latest/linux_packages/dart_3.0.5-1_amd64.deb"
+file_name: "dart_3.0.5-1_amd64.deb"
+
+# Install to
+installed_dir: "{{ ava_dir }}/Dart"

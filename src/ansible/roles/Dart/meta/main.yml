@@ -1,0 +1,4 @@
+dependencies:
+- uni/get
+- Dart/get
+- Dart/install
