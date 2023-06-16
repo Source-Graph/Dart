@@ -13,7 +13,7 @@
 - name: which .profile?
   ansible.builtin.set_fact:
     profile_file:
-        # - .bashrc
+        - .bashrc
         - "{{ '.profile' if profile.stat.exists else '.bash_profile' if bash_profile.stat.exists }}"
 
 # - debug:
