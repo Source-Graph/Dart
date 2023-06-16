@@ -9,7 +9,6 @@
   - name: Repo
     ansible.builtin.apt_repository:
       repo: "deb [signed-by=/usr/share/keyrings/dart.gpg arch=amd64] https://storage.googleapis.com/download.dartlang.org/linux/debian stable main"
-      # repo: "deb [arch=amd64 signed-by=/etc/apt/keyrings/myrepo.asc] https://download.example.com/linux/ubuntu {{ ansible_distribution_release }} stable"
       state: present
 
   - name: install Dart
